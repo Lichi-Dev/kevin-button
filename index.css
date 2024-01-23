@@ -1,0 +1,14 @@
+.button {
+  border: 2px solid #1c6faf;
+  padding: 10px 15px;
+  color: #1c6faf;
+  background-color: white;
+  transition: background-color ease 0.5s, color ease 0.5s, right ease 0.5s;
+  position: relative;
+  right: 0px;
+}
+.button:hover {
+  background-color: #1c6faf;
+  color: #ffffff;
+  right: -10px;
+}
